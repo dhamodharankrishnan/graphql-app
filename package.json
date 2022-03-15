@@ -4,8 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --ignore data/ server.js"
   },
+  "dependencies": {
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^3.1.1"
+ },
+ "devDependencies": {
+  "nodemon": "1.17.1"
+},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/dhamodharankrishnan/graphql-app.git"
