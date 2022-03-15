@@ -1,0 +1,19 @@
+{
+  "name": "graphql-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dhamodharankrishnan/graphql-app.git"
+  },
+  "author": "Dhamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhamodharankrishnan/graphql-app/issues"
+  },
+  "homepage": "https://github.com/dhamodharankrishnan/graphql-app#readme"
+}
