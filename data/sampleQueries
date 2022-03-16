@@ -1,0 +1,29 @@
+{
+  studentById(studID: "S1001"){
+    studID
+    firstName
+    lastName
+    email
+  }
+}
+
+======
+{
+ studentDetails{
+  studID
+  firstName
+}
+}
+
+=====
+{
+  studentById(studID: "S101"){
+    studID
+    collegeId
+    college {
+      name
+      location
+    }
+  }
+}
+======

@@ -1,0 +1,31 @@
+type College {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
+}
+
+type Student {
+
+   studID : ID!
+   firstName: String
+   lastName: String
+   fullName: String
+   email: String
+   password: String
+   collegeId: String
+   age: Int
+   score: Float
+   college: College
+}
+
+type Query  {
+   test: String
+   greeting: String
+   studentDetails: [Student]
+   studentById(studID:ID!):Student 
+}
+
+type Mutation {
+   addStudent(firstName: String, lastName: String): Student
+}
