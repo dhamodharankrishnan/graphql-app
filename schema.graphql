@@ -1,3 +1,9 @@
+enum ColorType {
+   RED
+   BLUE
+   GREEN
+}
+
 type College {
    id:ID!
    name:String
@@ -22,10 +28,23 @@ type Student {
 type Query  {
    test: String
    greeting: String
+   greetingWithAuth:String
+   sayHello(name:String!):String 
    studentDetails: [Student]
-   studentById(studID:ID!):Student 
+   collegeDetails: [College]
+   studentById(studID:ID):Student
+
+   setFavouriteColor(color:ColorType):String
+}
+
+input SignUpInput {
+   email:String!,
+   password:String!,
+   firstName:String!
 }
 
 type Mutation {
-   addStudent(firstName: String, lastName: String): Student
+   addStudent(collegeId: ID!, firstName: String, lastName: String): String
+   createStudent(collegeId: ID!, firstName: String, lastName: String): Student
+    signUp(input:SignUpInput):String
 }

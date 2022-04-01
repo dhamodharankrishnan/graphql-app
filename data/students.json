@@ -1,34 +1,74 @@
 [
-    {
-       "studID": "S1001",
-       "firstName":"Mohtashim",
-       "lastName":"Mohammad",
-       "email": "mohtashim.mohammad@tutorialpoint.org",
-       "password": "pass123",
-       "collegeId": "col-102",
-       "age": 20,
-       "score": 90.5
-    },
-    
-    {
-       "studID": "S1002",
-       "email": "kannan.sudhakaran@tutorialpoint.org",
-       "firstName":"Kannan",
-       "lastName":"Sudhakaran",
-       "password": "pass123",
-       "collegeId": "col-101",
-       "age": 23,
-       "score": 91.5
-    },
-    
-    {
-       "studID": "S1003",
-       "email": "kiran.panigrahi@tutorialpoint.org",
-       "firstName":"Kiran",
-       "lastName":"Panigrahi",
-       "password": "pass123",
-       "collegeId": "col-101",
-       "age": 24,
-       "score": 92.5
-    }
- ]
+  {
+    "studID": "S1001",
+    "firstName": "Mohtashim",
+    "lastName": "Mohammad",
+    "email": "mohtashim.mohammad@tutorialpoint.org",
+    "password": "pass123",
+    "collegeId": "col-102",
+    "age": 20,
+    "score": 90.5
+  },
+  {
+    "studID": "S1002",
+    "email": "kannan.sudhakaran@tutorialpoint.org",
+    "firstName": "Kannan",
+    "lastName": "Sudhakaran",
+    "password": "pass123",
+    "collegeId": "col-101",
+    "age": 23,
+    "score": 91.5
+  },
+  {
+    "studID": "S1003",
+    "email": "kiran.panigrahi@tutorialpoint.org",
+    "firstName": "Kiran",
+    "lastName": "Panigrahi",
+    "password": "pass123",
+    "collegeId": "col-101",
+    "age": 24,
+    "score": 92.5
+  },
+  {
+    "studID": "HJG5DpZG9",
+    "collegeId": "col-101",
+    "firstName": "Dhamo",
+    "lastName": "Krish"
+  },
+  {
+    "studID": "rkCQOp-z9",
+    "collegeId": "col-101",
+    "firstName": "Dhamo",
+    "lastName": "Krish"
+  },
+  {
+    "studID": "HJbhuT-G5",
+    "collegeId": "col-101",
+    "firstName": "Dhamo",
+    "lastName": "Krish"
+  },
+  {
+    "studID": "BkXCMbmfq",
+    "collegeId": "col-102",
+    "firstName": "Supraja",
+    "lastName": "Dhamo"
+  },
+  {
+    "studID": "rkuFKQVMq",
+    "collegeId": "col-102",
+    "firstName": "Supraja",
+    "lastName": "Dhamo"
+  },
+  {
+    "studID": "r1B4bEVG9",
+    "collegeId": "col-101",
+    "firstName": "Dhamo",
+    "lastName": "Krish"
+  },
+  {
+    "studID": "rJ24-fAzc",
+    "collegeId": "col-101",
+    "firstName": "Dhamo",
+    "lastName": "Krish"
+  }
+]

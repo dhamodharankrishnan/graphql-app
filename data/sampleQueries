@@ -27,3 +27,22 @@
   }
 }
 ======
+
+query myQuery($myname_Variable:String!) {
+   sayHello(name:$myname_Variable)
+}
+
+query studQuery($studId:ID!) {
+  studentById(studID: $studId){
+    studID
+    firstName
+    lastName
+  }
+}
+
+Var 
+---
+myname_Variable
+studId
+
+======
